@@ -20,7 +20,7 @@ wget git nmap tcptraceroute iperf3 \
 net-tools iproute2 tcpdump vim nano gawk diffstat \
 texinfo gcc-multilib build-essential chrpath \
 libsdl1.2-dev xterm open-vm-tools qemu-utils \
-mc tcpflow whois python3 python3-pip valgrind kcachegrind
+mc tcpflow whois python3 python3-pip valgrind --fix-missing
 
 # OpenVPN Configuration
 RUN echo iptables-persistent iptables-persistent/autosave_v4 boolean true | sudo debconf-set-selections
