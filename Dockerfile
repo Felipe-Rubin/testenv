@@ -18,7 +18,7 @@ apt-get install -y nodejs gcc g++ \
 make zip unzip rsync cron \
 ntpdate htop openssl curl \
 wget git nmap tcptraceroute iperf3 iputils-ping traceroute \
-net-tools iproute2 tcpdump vim nano gawk diffstat \
+net-tools iproute2 tcpdump vim nano gawk diffstat dnsutils \
 texinfo gcc-multilib build-essential chrpath \
 libsdl1.2-dev xterm qemu-utils \
 mc tcpflow whois python3 python3-pip \
